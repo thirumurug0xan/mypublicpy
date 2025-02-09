@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "kali" | sudo -S dpkg -i $HOME/Desktop/mesa-vulkan-kgsl_24.1.0-devel-20240120_arm64.deb
+
+#notify-send "Activated successfully"

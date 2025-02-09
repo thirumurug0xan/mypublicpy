@@ -1,0 +1,13 @@
+#!/bin/bash
+# Function to send notifications
+notify() {
+ notify-send "$1"
+}
+# Check if '619' exists in vulkaninfo
+if fastfetch | grep -q 619; then
+ echo "kali" | sudo -S apt install mesa-utils -y > /dev/null 2>&1
+    notify "Deactivated successfully"
+else
+ echo "kali" | sudo -S dpkg -i "$HOME/Desktop/mesa-vulkan-kgsl_24.1.0-devel-20240120_arm64.deb" > /dev/null 2>&1 
+    notify "Activated successfully"
+fi

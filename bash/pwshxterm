@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export DOTNET_GCHeapHardLimit=1C0000000
+SHELL=/home/kali/Public/powersh/pwsh; 
+exo-open --launch TerminalEmulator
