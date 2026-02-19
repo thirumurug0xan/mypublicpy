@@ -6,6 +6,8 @@
 - These are my pre-compiled parts of single interpreter merge and install it by
   ``` bash
   cat Python3.11.12_a* > Python3.11.12.zip
+  unzip Python3.11.12.zip
+  cd Python3.11.12
   make install
   ```
 - Thats it
