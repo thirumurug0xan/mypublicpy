@@ -7,7 +7,7 @@
   ``` bash
   cat Python3.11.12_a* > Python3.11.12.zip
   unzip Python3.11.12.zip
-  cd Python3.11.12
-  make install
+  cd Python-3.11.12
+  sudo make install
   ```
 - Thats it
